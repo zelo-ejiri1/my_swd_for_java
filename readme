@@ -1,0 +1,17 @@
+①Ecipse_for_Java(Full All in One)をインストール
+http://mergedoc.sourceforge.jp/
+
+②Selenium　WebDriverのダウンロードと解凍
+http://docs.seleniumhq.org/download/
+
+③seleniumのJarファイルをeclipseに置く
+「eclipse_java\eclipse\dropins」に解凍したものをまるっと置く
+
+④EclipseでJavaプロジェクトを作る
+
+⑤外部JARを
+プロジェクト右クリック→ビルド・パス→ビルド・パスの構成
+→ライブラリ→外部JARの追加
+でさっきおいたJARファイルの
+selenium-java-バージョン.jar
+とlibsディレクトリ配下のJARファイル全てを追加。
